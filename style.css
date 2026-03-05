@@ -1,0 +1,21 @@
+/* Reset padrão para garantir que ocupe 100% da tela */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background-color: #000; /* Fundo preto como na imagem */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#heartCanvas {
+  display: block;
+}
